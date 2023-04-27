@@ -2,7 +2,7 @@ import Foundation
 
 var name = [String]()
 let score = ["A+" : 4.5, "A" : 4, "B+" : 3.5, "B" : 3, "C+" : 2.5, "C" : 2, "D+" : 1.5, "D" : 1, "F" : 0]
-var grade = [[String]]()
+var grade = [String]()
 
 start()
 
@@ -86,8 +86,20 @@ func score_add() {
     print("성적을 추가할 학생의 이름, 과목 이름, 성적(A, A+, F 등)을 띄어쓰기로 구분하여 차례로 작성해주세요.")
     print("입력예) Mickey Swift A+")
     print("만약 학생의 성적 중 해당 과목이 존재하면 기존 점수가 갱신됩니다.")
-    //let score_answer = readLine()!.split(separator: " ")
-    
+    let score_answer = readLine()!.split(separator: " ") // 띄어쓰기로 구분하여 배열에 저장
+
+    if score_answer.count == 3  {
+        let name = String(score_answer[0])
+        let subject = String(score_answer[1])
+        let score = String(score_answer[2])
+        
+        // --------------------------------------------------------------
+        
+        print("\(name) 학생의 \(subject) 과목이 \(score)로 추가(변경)되었습니다.")
+    } else {
+        print("입력이 잘못되었습니다. 다시 확인해주세요.")
+        start()
+    }
 }
 
 // 성적삭제
@@ -97,5 +109,18 @@ func score_del() {
 
 // 평점보기
 func avg_score() {
-    print("Avg_scroe")
+    print("평점을 알고싶은 학생의 이름을 입력해주세요")
+    let avg_answer = readLine()!
+    
+    if avg_answer.count == 0 {
+        print("입력이 잘못되었습니다. 다시 확인해주세요.")
+        start()
+    } else {
+        if (name.contains(avg_answer) == false) {
+            print("\(avg_answer) 학생을 찾지못했습니다")
+            start()
+        } else {
+            
+        }
+    }
 }
