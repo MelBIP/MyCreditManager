@@ -135,6 +135,23 @@ while문을 사용하여 무한루프 돌려줌
 
 ![스크린샷 2023-04-25 오후 6.05.21.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1df7118c-7c58-4945-a233-d9a1e60dbbe4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-25_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_6.05.21.png)
 
-switch-case문으로 하려 했는데 잘 안 되는 거 같기 때문에 그냥 if문으로 두겠음
 
 ### 학생추가
+
+### 
+
+![스크린샷 2023-04-25 오후 11.09.54.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/810f4b25-7342-440c-9260-6dd9ed8d50e4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-25_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11.09.54.png)
+
+문자열 보간법 안 뜨는 상태
+
+![스크린샷 2023-04-26 오후 5.03.03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69d576fd-dc1a-455f-9750-43dbf5dc647e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-26_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.03.03.png)
+
+고치기 완료!
+
+### 학생삭제
+
+![스크린샷 2023-04-26 오후 10.40.30.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/326102d6-7ef5-44ce-99e7-943e00322a0e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-26_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.40.30.png)
+
+### 성적추가
+
+components(separatedBy: " ")랑 split(separator: " ")는 공백 문자를 구분문자로 사용하여 구분
